@@ -90,4 +90,4 @@ Aqui mostraremos la parte teorica de **Listas Doblemente Enlazadas** y **Listas 
 - #### 5. ¿Cómo hacer que una lista doblemente enlazada se comporte como una lista circular?
   Para hacer que una lista doblemente enlazada se comporte como una lista circular, es necesario realizar dos pasos clave. Primero, se deben conectar los extremos de la lista, es decir, el siguiente puntero del último nodo debe apuntar al primer nodo (cabeza), y el puntero anterior del primer nodo debe apuntar al último nodo. Esto crea un ciclo entre el primer y el último nodo, estableciendo la circularidad. Segundo, todas las operaciones de inserción, eliminación y recorrido deben ajustarse para tener en cuenta esta circularidad, asegurando que, al llegar a un extremo de la lista, se pueda regresar al otro sin problemas. Estas modificaciones garantizan que la lista doblemente enlazada funcione correctamente como una lista circular.
 
-- ### 6. Ejemplo practico hecho en python archivo: `lista circulares.py`
+- ### 6. Ejemplo practico hecho en python archivo: `lista circulas.py`
